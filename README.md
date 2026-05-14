@@ -62,6 +62,36 @@ This repository contains step-by-step guides, manifest files, and scenario-based
 | **16** | [Shared Volumes](./day16.md) | Configure shared storage between multiple containers using `emptyDir`. |
 | **17** | [Sidecar Containers](./day17.md) | Implement sidecar architecture for centralized logging and monitoring. |
 | **18** | [Nginx Web Server](./day18.md) | Deploy and scale an Nginx web server using Deployment and Service. |
+| **19** | [Print Environment Variables](./day19.md) | Inspect and print system environment variables inside a Linux system. |
+| **20** | [Rolling Updates and Rollbacks](./day20.md) | Implement zero-downtime rolling updates and rollbacks on Deployments. |
+| **21** | [Deploy Jenkins](./day21.md) | Deploy Jenkins on a Kubernetes cluster for continuous integration. |
+| **22** | [Deploy Grafana](./day22.md) | Deploy Grafana on a Kubernetes cluster for monitoring and visualization. |
+| **23** | [Deploy Tomcat App](./day23.md) | Deploy and configure Apache Tomcat Java application inside Kubernetes. |
+| **24** | [Deploy Node.js App](./day24.md) | Containerize and deploy Node.js applications with Kubernetes. |
+| **25** | [Troubleshoot Deployment](./day25.md) | Analyze, diagnose, and fix common Deployment issues in Kubernetes. |
+| **26** | [Fix LAMP Environment](./day26.md) | Fix environmental configuration issues in a deployed LAMP stack. |
+| **27** | [Deploy Apache Web Server](./day27.md) | Deploy an Apache Web Server on a Kubernetes cluster with high availability. |
+| **28** | [Deploy LAMP Stack](./day28.md) | Deploy a fully functional LAMP (Linux, Apache, MySQL, PHP) Stack. |
+| **29** | [Init Containers](./day29.md) | Use Init Containers to pre-configure environments or wait for readiness. |
+| **30** | [Persistent Volumes](./day30.md) | Implement Persistent Volumes (PV) and claims (PVC) for storage. |
+| **31** | [Manage Secrets](./day31.md) | Securely manage sensitive data like credentials using Kubernetes Secrets. |
+| **32** | [Environment Variables](./day32.md) | Inject configuration settings into containers using Env Variables. |
+| **33** | [Kubernetes LEMP Setup](./day33.md) | Deploy a full LEMP (Linux, Nginx, MySQL, PHP) Stack. |
+| **34** | [Kubernetes Troubleshooting](./day34.md) | Advanced Kubernetes troubleshooting involving Pods and Network. |
+| **35** | [Deploy Iron Gallery](./day35.md) | Deploy the Iron Gallery web application on Kubernetes. |
+| **36** | [Fix Python App](./day36.md) | Fix configuration errors in a deployed Python application. |
+| **37** | [Deploy Redis](./day37.md) | Deploy Redis Cache as a Kubernetes Deployment for session management. |
+| **38** | [Deploy MySQL](./day38.md) | Deploy a MySQL relational database for enterprise storage needs. |
+| **39** | [Nginx and PHP-FPM](./day39.md) | Setup Nginx front-end integrated with PHP-FPM back-end processing. |
+| **40** | [Deploy Drupal App](./day40.md) | Deploy and configure Drupal Content Management System on Kubernetes. |
+| **41** | [Deploy Guest Book](./day41.md) | Deploy a multi-tier Guest Book application with Redis backend. |
+| **42** | [Fix ImagePullBackOff](./day42.md) | Troubleshoot and fix ImagePullBackOff using private registry credentials. |
+| **43** | [Fix CrashLoopBackOff](./day43.md) | Diagnose and fix CrashLoopBackOff across 3 container restart scenarios. |
+| **44** | [Scheduling Controls](./day44.md) | Control pod placement using Node Affinity, Taints, and Tolerations. |
+| **45** | [StatefulSet PV Fix](./day45.md) | Resolve Persistent Volume attachment issues for StatefulSets. |
+| **46** | [Network Policies](./day46.md) | Secure pod-to-pod and pod-to-database traffic using Network Policies. |
+| **47** | [HELM Package Manager](./day47.md) | Master HELM, the package manager, to manage application life-cycles. |
+| **48** | [Kubectl Port Forward](./day48.md) | Expose and access Kubernetes Pods/Services locally with port forwarding. |
 
 ---
 
@@ -96,7 +126,7 @@ Ensure you have the following installed on your system:
 
 ```text
 .
-├── day1.md - day18.md   # Daily challenge guides (1-14, 16-18)
+├── day1.md - day48.md   # Daily challenge guides (1-14, 16-48)
 ├── README.md            # Main documentation
 └── .git                 # Git configuration
 ```
