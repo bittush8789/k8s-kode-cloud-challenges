@@ -59,6 +59,9 @@ This repository contains step-by-step guides, manifest files, and scenario-based
 | **12** | [Update Deployments](./day12.md) | Update Deployments and Services for new app versions. |
 | **13** | [NodePort Service](./day13.md) | Expose applications externally using NodePort Services. |
 | **14** | [VolumeMounts Fix](./day14.md) | Resolve VolumeMount issues in Kubernetes Pods. |
+| **16** | [Shared Volumes](./day16.md) | Configure shared storage between multiple containers using `emptyDir`. |
+| **17** | [Sidecar Containers](./day17.md) | Implement sidecar architecture for centralized logging and monitoring. |
+| **18** | [Nginx Web Server](./day18.md) | Deploy and scale an Nginx web server using Deployment and Service. |
 
 ---
 
@@ -93,7 +96,7 @@ Ensure you have the following installed on your system:
 
 ```text
 .
-├── day1.md - day14.md   # Daily challenge guides
+├── day1.md - day18.md   # Daily challenge guides (1-14, 16-18)
 ├── README.md            # Main documentation
 └── .git                 # Git configuration
 ```
